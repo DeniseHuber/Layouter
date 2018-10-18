@@ -19,3 +19,5 @@ github_repo_url: https://github.com/Sevitec/oneoffixx-docs/
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+
+theme: jekyll-theme-time-machine
