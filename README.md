@@ -3,7 +3,7 @@
 # Docs
 Documentation Repository for OneOffixx
 
-[Site](http://nyffenegger.github.io)
+[Site]()
 
 ## Dev Notes
 
