@@ -31,12 +31,11 @@
             </div>
             <div class="collapse navbar-collapse" id="oo-docs-navigation">
                 <ul class="nav navbar-nav">
-                    <li class="{%if include.currentPermalink contains 'FirstSteps/'%}active{%endif%}"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Erste Schritte<i class="glyph glyph-chevron-down-2"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="{{ site.baseurl }}/FirstSteps/de/1_ firststart">OneOffixx das erste Mal Starten</a></li>
-                            <li><a href="{{ site.baseurl }}/FirstSteps/de/2_assistant">OneOffixx Einrichtungsassistent</a></li>
-							<li><a href="{{ site.baseurl }}/FirstSteps/de/3_startOO">OneOffixx starten</a></li>
-                         
+                    
+                                            
+					<li class="{%if include.currentPermalink contains 'FirstSteps/'%}active{%endif%}">
+                        <a class="color-type-secondary" href="{{ site.baseurl }}/FirstSteps/de/firststeps">Erste Schritte</a>
+                    </li>
 <!-- Trennlinie
 						 <li class="divider"></li>
                             <li><a href="{{ site.baseurl }}/FirstSteps/de/javascript">JS Scripting</a></li>
@@ -48,16 +47,10 @@
                     <li class="dropdown {%if include.currentPermalink contains 'User_Profile/'%}active{%endif%}">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Benutzerdaten und Profile<i class="glyph glyph-chevron-down-2"></i></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="{{ site.baseurl }}/User_Profile/de/1_editprofile/">Benutzerprofil einrichten</a></li>
-                            <li><a href="{{ site.baseurl }}/User_Profile/de/2_standardprofile/">Standard Profil</a></li>
-                            <li><a href="{{ site.baseurl }}/User_Profile/de/3_newprofilesetup/">Neues Profil erstellen</a></li>
-							<li><a href="{{ site.baseurl }}/User_Profile/de/4_assignou/">Organisationseinheit zuweisen</a></li>
-                            <li><a href="{{ site.baseurl }}/User_Profile/de/5_changesignature/">Profil duplizieren und bearbeiten</a></li>
-							<li><a href="{{ site.baseurl }}/User_Profile/de/6_newprofile/">Neues Profil erstellen und Unterschriften wechseln</a></li>
-                            <li><a href="{{ site.baseurl }}/User_Profile/de/7_addsignatureprofile/">Unterschriftenprofil hinzufügen</a></li>
-							<li><a href="{{ site.baseurl }}/User_Profile/de/8_standardemailprofile/">Standard E-Mail Profil</a></li>
-                            <li><a href="{{ site.baseurl }}/User_Profile/de/9_shareprofile/">Profile freigeben</a></li>
-							<li><a href="{{ site.baseurl }}/User_Profile/de/10_usesharedprofile/">Fremdprofil verwenden</a></li>
+                            <li><a href="{{ site.baseurl }}/User_Profile/de/1_editprofile/">Profil einrichten</a></li>
+							<li><a href="{{ site.baseurl }}/User_Profile/de/3_newprofilesetup/">Profile bearbeiten</a></li>
+                            <li><a href="{{ site.baseurl }}/User_Profile/de/2_standardprofile/">Profile verwenden</a></li>
+							<li><a href="{{ site.baseurl }}/User_Profile/de/4_assignou/">Profile freigeben</a></li>
                         </ul>
                     </li>
 					<!--
@@ -71,57 +64,45 @@
                             <li class="divider"></li>-->
 							
                             <li><a href="{{ site.baseurl }}/DocumentCreation/de/1_documentselection/">Dokumentauswahl</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/2_documentselectioncontextmenu/">Dokumentauswahl Kontextmenu</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/3_documentparameter/">Dokument Parameter</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/4_recipient/">Empfänger</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/5_exceladdressimport/">Adress-Import aus Excel Datei</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/6_addresslist/">Verwendung von Adresslisten</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/4_recipient/">Empfänger / Empfängerauswahl</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/6_addresslist/">Empfängerdetails</a></li>
                             <li><a href="{{ site.baseurl }}/DocumentCreation/de/7_editrecipient/">Empfänger bearbeiten</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/8_recipientdetails/">Empfängerdetails</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/9_shippingmethod/">Versandart</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/10_salutation/">Anrede</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/11_greeting/">Grussformel</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/12_addrecipientmanually/">Empfänger manuell hinzufügen</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/13_addrecipientclipboard/">Empfänger aus Zwischenablage einfügen</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/14_multiplerecipients/">Mehrere Empfänger</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/15_saverecipientoutlook/">Empfänger in Outlook speichern/aktualisieren</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/16_recipientlist/">Empfängerlisten</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/17_contactconflict/">Kontaktkonflikt</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/18_symbols/">Symbolerklärung Empfängerlisten-Checkboxen</a></li>  
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/12_addrecipientmanually/">Empfänger aus Outlook</a></li>
+                            
                         </ul>
                     </li>
-                    <li class="dropdown {%if include.currentPermalink contains 'DocumentEdit/'%}active{%endif%}">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">OneOffixx Dokumente bearbeiten<i class="glyph glyph-chevron-down-2"></i></a>
+                    
+						
+
+						
+						 <li class="dropdown {%if include.currentPermalink contains 'DocumentEdit/'%}active{%endif%}">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dokumente bearbeiten<i class="glyph glyph-chevron-down-2"></i></a>
                         <ul class="dropdown-menu" role="menu">
-                       <!--     <li><a href="{{ site.baseurl }}/DocumentEdit/de/overview">Übersicht</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentEdit/de/server">Server Installation</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentEdit/de/client">Client Installation</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentEdit/de/client-citrix-ts">Terminalserver Installation</a></li>
-							<li><a href="{{ site.baseurl }}/DocumentEdit/de/sync-overview">Benutzersynchronisation</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentEdit/de/releasenotes">Releasenotes</a></li>  -->
+                      							
+                            <li><a href="{{ site.baseurl }}/DocumentEdit/de/1_documentselection/">OneOffixx Menuleiste</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentEdit/de/4_recipient/">OneOffixx Nachfolgeoptionen</a></li>
+                            
                         </ul>
                     </li>
-					  <li class="dropdown {%if include.currentPermalink contains 'Snippets/'%}active{%endif%}">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Textbausteine<i class="glyph glyph-chevron-down-2"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                        <!--    <li><a href="{{ site.baseurl }}/Snippets/de/overview">Übersicht</a></li>
-                            <li><a href="{{ site.baseurl }}/Snippets/de/server">Server Installation</a></li>
-                            <li><a href="{{ site.baseurl }}/Snippets/de/client">Client Installation</a></li>
-                            <li><a href="{{ site.baseurl }}/Snippets/de/client-citrix-ts">Terminalserver Installation</a></li>
-							<li><a href="{{ site.baseurl }}/Snippets/de/sync-overview">Benutzersynchronisation</a></li>
-                            <li><a href="{{ site.baseurl }}/Snippets/de/releasenotes">Releasenotes</a></li> -->
-                        </ul>
+						
+						
+						
+                     
+								
+					<li class="{%if include.currentPermalink contains 'Snippets/'%}active{%endif%}">
+                        <a class="color-type-secondary" href="{{ site.baseurl }}/Snippets/de/firststeps">Textbausteine</a>
                     </li>
-					  <li class="dropdown {%if include.currentPermalink contains 'Outlook/'%}active{%endif%}">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Outlook<i class="glyph glyph-chevron-down-2"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                        <!--    <li><a href="{{ site.baseurl }}/Outlook/de/overview">Übersicht</a></li>
-                            <li><a href="{{ site.baseurl }}/Outlook/de/server">Server Installation</a></li>
-                            <li><a href="{{ site.baseurl }}/Outlook/de/client">Client Installation</a></li>
-                            <li><a href="{{ site.baseurl }}/Outlook/de/client-citrix-ts">Terminalserver Installation</a></li>
-							<li><a href="{{ site.baseurl }}/Outlook/de/sync-overview">Benutzersynchronisation</a></li>
-                            <li><a href="{{ site.baseurl }}/Outlook/de/releasenotes">Releasenotes</a></li> -->
-                        </ul>
+					
+					<li class="{%if include.currentPermalink contains 'Outlook/'%}active{%endif%}">
+                        <a class="color-type-secondary" href="{{ site.baseurl }}/Outlook/de/firststeps">Outlook</a>
+                    </li>
+					
+					<li class="{%if include.currentPermalink contains 'Settings/'%}active{%endif%}">
+                        <a class="color-type-secondary" href="{{ site.baseurl }}/Settings/de/firststeps">Einstellungen</a>
+                    </li>
+					
+					<li class="{%if include.currentPermalink contains 'FAQ/'%}active{%endif%}">
+                        <a class="color-type-secondary" href="{{ site.baseurl }}/FAQ/de/firststeps">FAQ</a>
                     </li>
 					
                 <!--    <li>
