@@ -13,7 +13,7 @@ kramdown:
   
 include: ['_pages']
 
-baseurl: "https://nyffenegger.github.io/Layouter/"
+baseurl: "https://nyffenegger.github.io/Layouter"
 github_repo_url: https://github.com/Sevitec/oneoffixx-docs/
 
 gems:
