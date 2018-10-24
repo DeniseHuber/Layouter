@@ -33,9 +33,9 @@
                 <ul class="nav navbar-nav">
                     <li class="{%if include.currentPermalink contains 'FirstSteps/'%}active{%endif%}"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Erste Schritte<i class="glyph glyph-chevron-down-2"></i></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="{{ site.baseurl }}/FirstSteps/de/OOStart">OneOffixx das erste Mal Starten</a></li>
-                            <li><a href="{{ site.baseurl }}/FirstSteps/de/assistant">OneOffixx Einrichtungsassistent</a></li>
-							<li><a href="{{ site.baseurl }}/FirstSteps/de/start">OneOffixx starten</a></li>
+                            <li><a href="{{ site.baseurl }}/FirstSteps/de/1_ firststart">OneOffixx das erste Mal Starten</a></li>
+                            <li><a href="{{ site.baseurl }}/FirstSteps/de/2_assistant">OneOffixx Einrichtungsassistent</a></li>
+							<li><a href="{{ site.baseurl }}/FirstSteps/de/3_startOO">OneOffixx starten</a></li>
                          
 <!-- Trennlinie
 						 <li class="divider"></li>
@@ -48,10 +48,16 @@
                     <li class="dropdown {%if include.currentPermalink contains 'User_Profile/'%}active{%endif%}">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Benutzerdaten und Profile<i class="glyph glyph-chevron-down-2"></i></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="{{ site.baseurl }}/User_Profile/de/pipeline/">Pipeline</a></li>
-                            <li><a href="{{ site.baseurl }}/User_Profile/de/inheritance/">Vererbungsystem</a></li>
-                            <li><a href="{{ site.baseurl }}/User_Profile/de/versioncontrol/">Versionierung</a></li>
-							<li><a href="{{ site.baseurl }}/User_Profile/de/subtemplates/">Untervorlagen</a></li>
+                            <li><a href="{{ site.baseurl }}/User_Profile/de/1_editprofile/">Benutzerprofil einrichten</a></li>
+                            <li><a href="{{ site.baseurl }}/User_Profile/de/2_standardprofile/">Standard Profil</a></li>
+                            <li><a href="{{ site.baseurl }}/User_Profile/de/3_newprofilesetup/">Neues Profil erstellen</a></li>
+							<li><a href="{{ site.baseurl }}/User_Profile/de/4_assignou/">Organisationseinheit zuweisen</a></li>
+                            <li><a href="{{ site.baseurl }}/User_Profile/de/5_changesignature/">Profil duplizieren und bearbeiten</a></li>
+							<li><a href="{{ site.baseurl }}/User_Profile/de/6_newprofile/">Neues Profil erstellen und Unterschriften wechseln</a></li>
+                            <li><a href="{{ site.baseurl }}/User_Profile/de/7_addsignatureprofile/">Unterschriftenprofil hinzufügen</a></li>
+							<li><a href="{{ site.baseurl }}/User_Profile/de/8_standardemailprofile/">Standard E-Mail Profil</a></li>
+                            <li><a href="{{ site.baseurl }}/User_Profile/de/9_shareprofile/">Profile freigeben</a></li>
+							<li><a href="{{ site.baseurl }}/User_Profile/de/10_usesharedprofile/">Fremdprofil verwenden</a></li>
                         </ul>
                     </li>
 					<!--
@@ -63,11 +69,24 @@
                         <ul class="dropdown-menu" role="menu">
                       <!--      <li><a href="{{ site.baseurl }}/connect/de/usage/">Aufruf</a></li>
                             <li class="divider"></li>-->
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/xml-schema/">XML Schema</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/connect-arguments/">Arguments</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/connect-functions/">Functions</a></li>
-                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/connect-commands/">Commands</a></li>
-                            <li><a href="{{ site.baseurl }}/connect/de/usecases/">Anwendungsfälle</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/1_documentselection/">Dokumentauswahl</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/2_documentselectioncontextmenu/">Dokumentauswahl Kontextmenu</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/3_documentparameter/">Dokument Parameter</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/4_recipient/">Empfänger</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/5_exceladdressimport/">Adress-Import aus Excel Datei</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/6_addresslist/">Verwendung von Adresslisten</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/7_editrecipient/">Empfänger bearbeiten</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/8_recipientdetails/">Empfängerdetails</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/9_shippingmethod/">Versandart</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/10_salutation/">Anrede</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/11_greeting/">Grussformel</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/12_addrecipientmanually/">Empfänger manuell hinzufügen</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/13_addrecipientclipboard/">Empfänger aus Zwischenablage einfügen</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/14_multiplerecipients/">Mehrere Empfänger</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/15_saverecipientoutlook/">Empfänger in Outlook speichern/aktualisieren</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/16_recipientlist/">Empfängerlisten</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/17_contactconflict/">Kontaktkonflikt</a></li>
+                            <li><a href="{{ site.baseurl }}/DocumentCreation/de/18_symbols/">Symbolerklärung Empfängerlisten-Checkboxen</a></li>
                         </ul>
                     </li>
                     <li class="dropdown {%if include.currentPermalink contains 'DocumentEdit/'%}active{%endif%}">
@@ -93,7 +112,7 @@
                         </ul>
                     </li>
 					  <li class="dropdown {%if include.currentPermalink contains 'Outlook/'%}active{%endif%}">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Textbausteine<i class="glyph glyph-chevron-down-2"></i></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Outlook<i class="glyph glyph-chevron-down-2"></i></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="{{ site.baseurl }}/Outlook/de/overview">Übersicht</a></li>
                             <li><a href="{{ site.baseurl }}/Outlook/de/server">Server Installation</a></li>
@@ -104,9 +123,9 @@
                         </ul>
                     </li>
 					
-                    <li>
+                <!--    <li>
                         <a class="color-type-secondary" href="http://oneoffixx.com/kontakt/">Kontakt</a>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
 
